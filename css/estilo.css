@@ -44,19 +44,22 @@ body{
     background-attachment: fixed;
     background-position:    center;
 
-    height: 500px;
+    height: 700px;
 }
 
 .Encabezado h1,h3,h4{
     color:white;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
 
 .Encabezado #logo{
     height: 100px;
     width: 100px;
 padding-left: 46%;
+margin-bottom: 3%;
 }
 
 .Encabezado #foto{
@@ -68,8 +71,9 @@ border-radius: 18px;
 }
 .Encabezado .poster{
     padding:4%;
-    padding-bottom: 3%;
+    padding-bottom: 16%;
     background: rgba(0,0,0,0.4);
+ 
 }
 
 .container{
@@ -130,6 +134,14 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 
+.respuesta{
+    background-attachment: fixed;
+    background:rgb(1, 123, 152);
+    color:white;
+    padding:5% 20%;
+    margin-top: 1%;
+}
+
 
 
 footer{
@@ -137,5 +149,6 @@ footer{
     color:white;
     text-align: center;
     padding: 2%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
