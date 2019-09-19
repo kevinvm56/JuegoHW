@@ -1,0 +1,141 @@
+body{
+    height: auto;
+    width: auto;
+}
+
+.menu{
+    height: 50px;
+    width: 100%;
+    padding-bottom:2%; 
+    overflow: hidden;
+    position: relative;
+    background: rgb(1, 123, 152);
+}
+
+
+
+.menu ul{
+    color: white;
+    padding: 1% 4%;
+    background: rgba(1, 123, 152,0.8);
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding-right:3%;
+  
+         
+}
+
+.menu a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+.menu a:hover{
+    color:rgba(238, 106, 18, 0.89);
+}
+
+.Encabezado{
+    background-image:linear-gradient(rgba(18, 132, 238, 0.9),rgba(177, 50, 216, 0.9),rgba(153, 26, 111, 0.8)),url("../img/Fondo-de-pantalla-Splinter-Cell-Conviction-3.jpg");
+    background-attachment: fixed;
+    background-position:    center;
+
+    height: 500px;
+}
+
+.Encabezado h1,h3,h4{
+    color:white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Encabezado #logo{
+    height: 100px;
+    width: 100px;
+padding-left: 46%;
+}
+
+.Encabezado #foto{
+    height: 100px;
+    width: 100px;
+margin-left: 46%;
+border: 2px solid rgb(255, 255, 255,0.9);
+border-radius: 18px;
+}
+.Encabezado .poster{
+    padding:4%;
+    padding-bottom: 3%;
+    background: rgba(0,0,0,0.4);
+}
+
+.container{
+    height: auto;
+    width: auto;
+background: white;
+    padding: 2% 10% 2% 40%;
+  
+}
+
+.Container-game{
+   background: white;
+
+}
+
+.Container-game h1{
+font-family: fantasy;
+color: rgb(34,178,194);
+line-height: 28px;
+}
+.Container-game .component{
+    display: block;
+    margin-left:10%; 
+    margin-top:2%;
+    margin-bottom: 2%; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn{
+    margin-left: 10%;
+    background: rgb(153, 26, 111);
+    color:white;
+    height: 50px;
+    width:150px;
+    border:10px;
+    border-radius:10px;
+    outline: none;
+
+}
+
+.btn:hover{
+    background: rgb(214, 33, 154);
+    cursor: pointer;
+}
+
+
+.container-secundario{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(65,65,65);
+    color:white;
+}
+
+.container-secundario #reglas{
+padding:5% 40%;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+footer{
+    background: linear-gradient(rgb(5, 205, 219),rgb(6, 162, 173),rgb(1, 116, 124));
+    color:white;
+    text-align: center;
+    padding: 2%;
+}
+

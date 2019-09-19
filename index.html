@@ -4,28 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JUEGO JAVASCRIPT</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>The balú game</title>
 </head>
 <body>
-    <nav>
+    <nav class="menu">
         <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">QUIENES SOMOS</a></li>
-            <li><a href="">REGLAS DEL JUEGO</a></li>
-            <li><a href="">JUEGO</a></li>
-            <li><a href=""> </a></li>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">QUIENES SOMOS</a></li>
+            <li><a href="#reglas">REGLAS DEL JUEGO</a></li>
+            <li><a href="#container">JUEGO</a></li>
+         
         </ul>
     </nav>
-    <header>
-        <h1> THE BALÚ EL GAME</h1>
+    <header class="Encabezado">
+        <div class="poster">
+                <h3>KVM & ALFRED CORPORATION</h3>
+                <img id="logo" src="img/logo22.png" alt="Imagen no encontrada">
+                <h4>PRESENTS</h4>
+                <h1> THE BALÚ GAME</h1>
+                <img id="foto" src="img/photo (1).jpg" alt="Imagen no encontrada">
+        </div>
+        
     </header>
-    <section>
-     
-        aqui va a ir el jueguito
+    <section class="container" id="container">
+        <div class="Container-game">
+                <h1>TEST PARA SABER QUE TAN MIERDA ERES</h1>
+                <form action="" class="Formulario" id="Formulario">
+                    <label for="edad" class="component"> ¿Cual es tu edad?</label>
+                    <input type="text" id="edad" class="component">
+                    <label for="nombre" class="component"> ¿Cual es tu Nombre?</label>
+                    <input type="text" id="nombre" class="component">
+                    <label for="nombre" class="component"> Cual es tu comida favorita</label>
+                    <select name="comida" id="comida" class="component">
+                        <option>CEVICHE</option>
+                        <option>AGUACHILE</option>
+                        <option>FRIJOLES PUERCOS</option>
+                        <option>OTRO</option>
+                    </select>
+                    <label for="nombre" class="component"> Cual es tu comida favorita</label>
+                    <select name="comida" id="comida" class="component">
+                            <option>PACIFICO</option>
+                            <option>TECATE</option>
+                            <option>MILLER</option>
+                            <option>INDIO</option>
+                        </select>
+                    <label for="nombre" class="component">Que prefieres</label>
+                    <input type="text" id="nombre" class="component">
+                    <label for="nombre" class="component"> que prefieres</label>
+                    <input type="text" id="nombre" class="component">
 
+                    <button onclick="" class="btn">ENVIAR!</button>
+                </form>
+        </div>
+
+        <div class="respuesta">
+
+
+        </div>
+    </section>
+    <section class="container-secundario">
+            <div id="reglas">
+                    <h1>Reglas del juego</h1>
+                 <ul>
+                    <li>Ser un pinche ogt</li>
+                    <li>tener huevos</li>
+                    <li>que te valga verga puta</li>
+                 </ul>    
+                </div>
     </section>
     <footer>
-     <p>todos los derechos reservados 2019</p>
+     <p>Todos los derechos reservados 2019</p>
      <p>KVM & ALFRED CORPORATIVO</p>
 
     </footer>
