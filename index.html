@@ -31,40 +31,54 @@
     <section class="container" id="container">
         <div class="Container-game">
                 <h1>TEST PARA SABER QUE TAN MAZATLECO ERES</h1>
-                <form action="" class="Formulario" id="Formulario">
+                <form  class="Formulario" id="Formulario">
                     <label for="edad" class="component"> ¿Cual es tu edad?</label>
                     <input type="text" id="edad" class="component">
+                    <div class="error" id="msjError"></div>
+
                     <label for="nombre" class="component"> ¿Cual es tu Nombre?</label>
                     <input type="text" id="nombre" class="component">
-                    <label for="nombre" class="component"> Cual es tu comida favorita</label>
+
+                    <label for="comida" class="component"> Cual es tu comida favorita</label>
                     <select name="comida" id="comida" class="component">
-                        <option>CEVICHE DE CRAKEN</option>
-                        <option>AGUACHILE</option>
-                        <option>FRIJOLES PUERCOS</option>
-                        
+                        <option value="ceviche">CEVICHE DE CRAKEN</option>
+                        <option value="aguachile">AGUACHILE</option>
+                        <option value="frijoles">FRIJOLES PUERCOS</option>
                     </select>
+
                     <label for="nombre" class="component"> Cual es tu cerveza favorita</label>
-                    <select name="comida" id="comida" class="component">
-                            <option>PACIFICO</option>
-                            <option>TECATE</option>
-                            <option>MILLER</option>
-                            <option>INDIO</option>
+                    <select name="cerveza" id="cerveza" class="component">
+                            <option value="pacifico">PACIFICO</option>
+                            <option value="tecate">TECATE</option>
+                            <option value="miller">MILLER</option>
+                            <option value="indio">INDIO</option>
                         </select>
-                    <label for="nombre" class="component">Escribe una palabra mazatleca</label>
-                    <input type="text" id="id_resp" class="component">>
-                    <label for="nombre" class="component"> ¿Te gusta pistear machin?</label>
+
+                    <label for="pregunta1" class="component">Escribe una palabra mazatleca</label>
+                    <input type="text" id="pregunta1" class="component">
+
+                    <label for="pregunta5" class="component"> ¿Te gusta pistear machin?</label>
                     <input type="radio" id="" class="" name="pregunta5" value="SI">SI
                     <input type="radio" id="" class="" name="pregunta5" value="NO">NO
 
-                    <label for="nombre" class="component"> ¿Escuchas banda?</label>
-                    <input type="radio" id="" class="" name="pregunta5" value="SI">SI
-                    <input type="radio" id="" class="" name="pregunta5" value="NO">NO
-                    <label for="nombre" class="component"> ¿Andas bichi o desnudo?</label>
-                    <input type="radio" id="" class="" name="pregunta5" value="SI">BICHI
-                    <input type="radio" id="" class="" name="pregunta5" value="NO">DESNUDO
+                    <label for="pregunta6" class="component"> ¿Escuchas banda?</label>
+                    <input type="radio" id="" class="" name="pregunta6" value="SI">SI
+                    <input type="radio" id="" class="" name="pregunta6" value="NO">NO
 
-                    <button onclick="procesar()" class="btn" id="btnEnviar">ENVIAR!</button>
+                    <label for="pregunta7" class="component"> un mazatleco no anda desnudo, un mazatleco anda...</label>
+                    <input type="radio" id="" class="" name="pregunta7" value="BICHI">BICHI
+                    <input type="radio" id="" class="" name="pregunta7" value="DESNUDO">DESNUDO
+                    <input type="radio" id="" class="" name="pregunta7" value="ENCUERADO">ENCUERADO
+
+                    <label for="pregunta8" class="component"> El mejor lugar para pasar un fin de semana es...</label>
+                    <input type="radio" id="" class="" name="pregunta8" value="BICHI">El cine
+                    <input type="radio" id="" class="" name="pregunta8" value="DESNUDO">Gran plaza
+                    <input type="radio" id="" class="" name="pregunta8" value="ENCUERADO">Olas altas
+                  
+                   
                 </form>
+                <button onclick="procesar()" class="btn" id="btnEnviar">ENVIAR!</button>
+                <button onclick="limpiar()" class="btn" id="btnLimpiar">LIMPIAR</button>
         </div>
 
         <div class="res" id="respuesta">
