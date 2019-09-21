@@ -32,21 +32,21 @@
         <div class="Container-game">
                 <h1>TEST PARA SABER QUE TAN MAZATLECO ERES</h1>
                 <form  class="Formulario" id="Formulario">
-                    <label for="edad" class="component"> ¿Cual es tu edad?</label>
+                    <label for="edad" class="component pregunta" > ¿Cual es tu edad?</label>
                     <input type="text" id="edad" class="component">
                     <div class="error" id="msjError"></div>
 
-                    <label for="nombre" class="component"> ¿Cual es tu Nombre?</label>
+                    <label for="nombre"  class="component pregunta"> ¿Cual es tu Nombre?</label>
                     <input type="text" id="nombre" class="component">
 
-                    <label for="comida" class="component"> Cual es tu comida favorita</label>
+                    <label for="comida"  class="component pregunta"> Cual es tu comida favorita</label>
                     <select name="comida" id="comida" class="component">
                         <option value="ceviche">CEVICHE DE CRAKEN</option>
                         <option value="aguachile">AGUACHILE</option>
                         <option value="frijoles">FRIJOLES PUERCOS</option>
                     </select>
 
-                    <label for="nombre" class="component"> Cual es tu cerveza favorita</label>
+                    <label for="cerveza"  class="component pregunta"> Cual es tu cerveza favorita</label>
                     <select name="cerveza" id="cerveza" class="component">
                             <option value="pacifico">PACIFICO</option>
                             <option value="tecate">TECATE</option>
@@ -54,31 +54,48 @@
                             <option value="indio">INDIO</option>
                         </select>
 
-                    <label for="pregunta1" class="component">Escribe una palabra mazatleca</label>
+                    <label for="pregunta1"  class="component pregunta">Escribe una palabra mazatleca</label>
                     <input type="text" id="pregunta1" class="component">
 
-                    <label for="pregunta5" class="component"> ¿Te gusta pistear machin?</label>
-                    <input type="radio" id="" class="" name="pregunta5" value="SI">SI
-                    <input type="radio" id="" class="" name="pregunta5" value="NO">NO
+                    <label for="pregunta5"  class="component pregunta"> ¿Te gusta pistear machin?</label>
+                    <input type="radio" id="" class="component2" name="pregunta5" value="SI">SI
+                    <input type="radio" id="" class="component2" name="pregunta5" value="NO">NO
 
-                    <label for="pregunta6" class="component"> ¿Escuchas banda?</label>
-                    <input type="radio" id="" class="" name="pregunta6" value="SI">SI
-                    <input type="radio" id="" class="" name="pregunta6" value="NO">NO
+                    <label for="pregunta6"  class="component pregunta"> ¿Escuchas banda?</label>
+                    <input type="radio" id="" class="component2" name="pregunta6" value="SI">SI
+                    <input type="radio" id="" class="component2" name="pregunta6" value="NO">NO
 
-                    <label for="pregunta7" class="component"> un mazatleco no anda desnudo, un mazatleco anda...</label>
-                    <input type="radio" id="" class="" name="pregunta7" value="BICHI">BICHI
-                    <input type="radio" id="" class="" name="pregunta7" value="DESNUDO">DESNUDO
-                    <input type="radio" id="" class="" name="pregunta7" value="ENCUERADO">ENCUERADO
+                    <label for="pregunta7"  class="component pregunta"> un mazatleco no anda desnudo, un mazatleco anda...</label>
+                    <input type="radio" id="" class="component2" name="pregunta7" value="BICHI">BICHI
+                    <input type="radio" id="" class="component2" name="pregunta7" value="DESNUDO">DESNUDO
+                    <input type="radio" id="" class="component2" name="pregunta7" value="ENCUERADO">ENCUERADO
 
-                    <label for="pregunta8" class="component"> El mejor lugar para pasar un fin de semana es...</label>
-                    <input type="radio" id="" class="" name="pregunta8" value="BICHI">El cine
-                    <input type="radio" id="" class="" name="pregunta8" value="DESNUDO">Gran plaza
-                    <input type="radio" id="" class="" name="pregunta8" value="ENCUERADO">Olas altas
+                    <label for="pregunta8"  class="component pregunta"> El mejor lugar para pasar un fin de semana es...</label>
+                    <input type="radio" id="" class="component2" name="pregunta8" value="R1">El cine
+                    <input type="radio" id="" class="component2" name="pregunta8" value="R2">Gran plaza
+                    <input type="radio" id="" class="component2" name="pregunta8" value="R3">Olas altas
+
+                    
+                    <label for="pregunta9"  class="component pregunta"> Mazatlán significa...</label>
+                    <input type="radio" id="" class="component2" name="pregunta9" value="R1">Tierra de venados
+                    <input type="radio" id="" class="component2" name="pregunta9" value="R2">Tierra de osos
+                    <input type="radio" id="" class="component2" name="pregunta9" value="R3">Tierra de tomates
+
+                    <label for="pregunta10"  class="component pregunta">Marca mazatleca de bombones de coco...</label>
+                    <input type="radio" id=""class="component2" name="pregunta10" value="R1">Suaves
+                    <input type="radio" id="" class="component2" name="pregunta10" value="R2">Deliciosas
+                    <input type="radio" id="" class="component2" name="pregunta10" value="R3">de la rosa
+
+                    <label for="pregunt11"  class="component pregunta"> mazatlán es donde...</label>
+                    <input type="radio" id="" class="component2" name="pregunta11" value="R1">se rompen las olas
+                    <input type="radio" id="" class="component2" name="pregunta11" value="R2">se rompen las tuberias
+                    <input type="radio" id="" class="component2" name="pregunta11" value="R3">se rompen las calles
                   
                    
                 </form>
                 <button onclick="procesar()" class="btn" id="btnEnviar">ENVIAR!</button>
                 <button onclick="limpiar()" class="btn" id="btnLimpiar">LIMPIAR</button>
+                <button onclick="refresh()" class="btn" id="btnRefresh">Jugar de nuevo</button>
         </div>
 
         <div class="res" id="respuesta">
@@ -90,9 +107,9 @@
             <div id="reglas">
                     <h1>Reglas del juego</h1>
                  <ul>
-                    <li>Ser un pinche ogt</li>
-                    <li>tener huevos</li>
-                    <li>que te valga verga puta</li>
+                    <li>No tener nada que hacer</li>
+                    <li>Tener ganas</li>
+                    <li>estar vivo</li>
                  </ul>    
                 </div>
     </section>

@@ -80,13 +80,13 @@ border-radius: 18px;
     height: auto;
     width: auto;
 background: white;
-    padding: 2% 10% 2% 40%;
+  
   
 }
 
 .Container-game{
    background: white;
-
+   padding: 2% 10% 2% 40%;
 }
 
 .Container-game h1{
@@ -96,15 +96,33 @@ line-height: 28px;
 }
 .Container-game .component{
     display: block;
-    margin-left:10%; 
+    margin-left:1%; 
     margin-top:2%;
     margin-bottom: 2%; 
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.Container-game .component2{
+     
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.Container-game .pregunta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    color:rgb(153, 26, 111);
+    font-size: 16pt;
+    margin-left: 1%;
+
 }
 
 .btn{
     margin-top:4%;
-    margin-left: 10%;
+    margin-left: 5%;
     background: rgb(153, 26, 111);
     color:white;
     height: 50px;
@@ -115,12 +133,18 @@ line-height: 28px;
 
 }
 
+#btnLimpiar{
+    background: rgb(34,178,194);
+}
+
 .btn:hover{
     background: rgb(214, 33, 154);
     cursor: pointer;
 }
 
-
+#btnLimpiar:hover{
+    background: rgb(44, 213, 231);  
+}
 .container-secundario{
     height: 400px;
     width: 100%;
@@ -137,9 +161,9 @@ font-family: Arial, Helvetica, sans-serif;
 
 .res{
     background-attachment: fixed;
-    background:rgb(1, 123, 152);
+
     color:white;
-    width: 250px;
+
     margin-top: 1%;
     padding: 3%;
 }
@@ -153,9 +177,15 @@ font-family: Arial, Helvetica, sans-serif;
     margin-top: 1%;
 }
 
+
+.texto1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    padding-right: 20%;
+}
 .imgRes{
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
 }
 
 
